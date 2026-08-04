@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
 class ListViewExampal extends StatelessWidget {
-  const ListViewExampal({super.key});
+  ListViewExampal({super.key});
+
+  List color = [Colors.red,Colors.blue,Colors.green,Colors.greenAccent,Colors.cyan];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
+        itemCount: color.length,
           itemBuilder: (context,index){
             return Center(
               child: Padding(
@@ -14,7 +17,9 @@ class ListViewExampal extends StatelessWidget {
                 child: Container(
                   height: 100,
                   width: 100,
-                  color: Colors.red,
+                  color: color[index],
+                      // ?Colors.blue,
+                  child: Text("$index"),
                 ),
               ),
             );
