@@ -20,6 +20,8 @@ class whatsappUI extends StatelessWidget {
             Icons.camera_alt_outlined,
             color: Colors.white,
           ),
+
+
           SizedBox(width: 20),
           Icon(
             Icons.search,
