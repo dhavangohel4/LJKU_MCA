@@ -16,7 +16,7 @@ class Task2 extends StatelessWidget {
               "assets/images/beach.jpg",
               height: 250,
               width: 300,
-              fit: BoxFit.cover,
+              
             ),
 
             // White Login Box
@@ -40,11 +40,8 @@ class Task2 extends StatelessWidget {
                       ),
                     ),
 
-                    const SizedBox(height: 10),
-
                     // Password
                     TextField(
-                      obscureText: true,
                       decoration: const InputDecoration(
                         hintText: "Password",
                         border: OutlineInputBorder(),

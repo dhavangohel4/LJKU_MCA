@@ -8,6 +8,7 @@ import 'GriedExample.dart';
 import 'Image_example.dart';
 import 'Task2.dart';
 import 'button.dart';
+import 'button_max_exampale.dart';
 import 'column_row.dart';
 import 'list_View_Exampal.dart';
 import 'stack_exampal.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       // home: HomeScreen(),
-      home: Task2(),
+      home: ButtonMaxExampale(),
     );
   }
 }
