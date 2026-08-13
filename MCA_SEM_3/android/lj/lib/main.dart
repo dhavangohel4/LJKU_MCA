@@ -7,6 +7,7 @@ import 'package:lj/whatsappUI.dart';
 import 'GriedExample.dart';
 import 'Image_example.dart';
 import 'Task2.dart';
+import 'Task3.dart';
 import 'button.dart';
 import 'button_max_exampale.dart';
 import 'column_row.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       // home: HomeScreen(),
-      home: ButtonMaxExampale(),
+      home: Task3(),
     );
   }
 }
