@@ -1,5 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:lj/Task31.dart';
+import 'package:lj/HomeScreen.dart';
+import 'package:lj/Task1.dart';
+import 'package:lj/textfield_example.dart';
+import 'package:lj/whatsappUI.dart';
+
+import 'GriedExample.dart';
+import 'Image_example.dart';
+import 'Task2.dart';
+import 'Task3.dart';
+import 'Task31.dart';
+import 'button.dart';
+import 'button_max_exampale.dart';
+import 'column_row.dart';
+import 'list_View_Exampal.dart';
+import 'stack_exampal.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -29,8 +44,9 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
+      // home: HomeScreen(),
       home: Task31(),
     );
   }
@@ -103,8 +119,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
-          mainAxisAlignment: .center,
-          children: [
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
@@ -117,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ),
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
