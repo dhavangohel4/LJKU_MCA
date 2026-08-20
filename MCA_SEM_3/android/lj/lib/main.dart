@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'snackbar_navigationbar.dart';
 import 'splash_screen.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: splash_screen(),
+      home: snackbar_navigationbar(),
     );
   }
 }
