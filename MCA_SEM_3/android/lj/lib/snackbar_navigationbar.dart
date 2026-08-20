@@ -44,6 +44,7 @@ class snackbar_navigationbar extends StatelessWidget {
                       ) ;
                     });
               }, child: Text("Alert Dialog")),
+
         ],
       ),
     );
