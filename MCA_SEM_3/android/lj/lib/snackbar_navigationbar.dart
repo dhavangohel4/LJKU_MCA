@@ -2,8 +2,15 @@ import 'package:flutter/material.dart';
 
 import 'Task3.dart';
 
-class snackbar_navigationbar extends StatelessWidget {
-  const snackbar_navigationbar({super.key});
+class snackbar_navigationbar extends StatefulWidget {
+  snackbar_navigationbar({super.key});
+
+  @override
+  State<snackbar_navigationbar> createState() => _snackbar_navigationbarState();
+}
+
+class _snackbar_navigationbarState extends State<snackbar_navigationbar> {
+  bool checkBoxSelect = false ;
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +52,15 @@ class snackbar_navigationbar extends StatelessWidget {
                     });
               }, child: Text("Alert Dialog")),
 
+          Checkbox(
+              value:checkBoxSelect ,
+              onChanged: (selected){
+                print(selected);
+                setState(() {
+                  checkBoxSelect = selected!;
+                });
+              }
+          ),
         ],
       ),
     );
