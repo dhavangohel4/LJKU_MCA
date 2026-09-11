@@ -34,8 +34,8 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      // home: snackbar_navigationbar(),
-      home: MyApp(),
+      home: snackbar_navigationbar(),
+      // home: MyApp(),
     );
   }
 }
