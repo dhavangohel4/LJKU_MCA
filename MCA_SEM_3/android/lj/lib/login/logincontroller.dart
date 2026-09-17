@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lj/api_services/api_services.dart';
-
-import '../button_max_exampale.dart';
+import '../Task2.dart';
+// import '../button_max_exampale.dart';
 
 class logincontroller extends GetxController{
   ApiServices api = ApiServices();
@@ -17,7 +17,7 @@ class logincontroller extends GetxController{
           "Success","",
           backgroundColor: Colors.green
         );
-        Get.to(ButtonMaxExampale());
+        Get.to(Task2());
       }
       else{
         Get.snackbar(
@@ -27,7 +27,8 @@ class logincontroller extends GetxController{
       }
     }
     catch(e){
-      print(e);
+      print(e.toString());
+      throw Exception(e.toString());
     }
   }
 }
