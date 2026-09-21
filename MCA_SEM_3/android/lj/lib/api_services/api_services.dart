@@ -32,5 +32,21 @@ class ApiServices{
       throw Exception("Error!!!!");
     }
   }
-  Future<tree> Tree(){}
+  Future<tree> Tree()async{
+    try{
+      final respo =await dio.get(https://www.anniecabs.com/LJ/index.php/api/get_tree_plant);
+          if(respo.statusCode == 200){
+
+            final user_value = tree.fromJson(respo.data);
+            return user_value;
+          }
+          else{
+            throw Exception("Error!!!!!!");
+    }
+    }
+    catch(e){
+      print(e.toString());
+      throw Exception("Error!!!!!!");
+    }
+  }
 }
