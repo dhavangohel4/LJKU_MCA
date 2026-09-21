@@ -34,7 +34,7 @@ class ApiServices{
   }
   Future<tree> Tree()async{
     try{
-      final respo =await dio.get(https://www.anniecabs.com/LJ/index.php/api/get_tree_plant);
+      final respo =await dio.get("https://www.anniecabs.com/LJ/index.php/api/get_tree_plant");
           if(respo.statusCode == 200){
 
             final user_value = tree.fromJson(respo.data);
