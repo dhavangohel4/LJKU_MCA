@@ -6,7 +6,7 @@ class TreeController extends GetxController{
 
 
   RxBool isLoading = false.obs;
-  RxList TreeData = <TreePlant>[].obs;
+  RxList<TreePlant> TreeData = <TreePlant>[].obs;
 
   Future<void> TreeCont()async{
     try{

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lj/tree_Plant/tree_screen.dart';
 
 import 'Task1.dart';
 import 'login/login.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: LoginScreen(),
+      home: TreeScreen(),
       // home: MyApp(),
     );
   }
