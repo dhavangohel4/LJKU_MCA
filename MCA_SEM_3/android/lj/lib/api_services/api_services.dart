@@ -49,4 +49,7 @@ class ApiServices{
       throw Exception("Error!!!!!!");
     }
   }
+  Future<news> news()async{
+
+  }
 }
