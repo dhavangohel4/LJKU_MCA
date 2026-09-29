@@ -1,8 +1,10 @@
 import "dart:convert";
 import 'package:dio/dio.dart';
 import "package:http/http.dart" as http;
+// import "package:lj/news/news_model.dart";
 import "package:lj/tree_Plant/tree_model.dart";
 import "../login/login_model.dart";
+import "../news/news_model.dart";
 
 class ApiServices{
   final Dio dio = Dio();
@@ -32,6 +34,7 @@ class ApiServices{
       throw Exception("Error!!!!");
     }
   }
+
   Future<tree> Tree()async{
     try{
       final respo =await dio.get("https://www.anniecabs.com/LJ/index.php/api/get_tree_plant");
@@ -49,6 +52,7 @@ class ApiServices{
       throw Exception("Error!!!!!!");
     }
   }
+
   Future<news> news()async{
 
   }
