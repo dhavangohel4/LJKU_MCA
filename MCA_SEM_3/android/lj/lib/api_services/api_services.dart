@@ -53,7 +53,7 @@ class ApiServices{
     }
   }
 
-  Future<news> news()async{
-
-  }
+  // Future<news> news()async{
+  //
+  // }
 }

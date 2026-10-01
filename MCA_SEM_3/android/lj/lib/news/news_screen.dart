@@ -16,7 +16,7 @@ class _NewsScreenState extends State<NewsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: obx(() => controller),
+      // body: obx(() => controller),
     );
   }
 }
