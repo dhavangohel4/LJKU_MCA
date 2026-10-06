@@ -39,7 +39,7 @@ class Task1 extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: InkWell(
-              onTap: (){
+              onTap: () {
                 Navigator.pop(context);
               },
               child: Card(
@@ -118,18 +118,12 @@ class Task1 extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(
-                        dataicon[index],
-                        size: 40,
-                        color: Colors.blue,
-                      ),
+                      Icon(dataicon[index], size: 40, color: Colors.blue),
                       const SizedBox(height: 10),
                       Text(
                         dataText[index],
                         textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: const TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),

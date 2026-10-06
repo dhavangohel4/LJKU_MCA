@@ -71,19 +71,17 @@ class TextfieldExample extends StatelessWidget {
               child: TextField(
                 controller: name,
                 decoration: InputDecoration(
-                    label: Text("Name"),
-                    prefixIcon: Icon(Icons.account_circle),
-                    suffixIcon: Icon(Icons.account_circle),
-                    border: OutlineInputBorder(
-                      gapPadding: 4.0,
-                      borderRadius: BorderRadius.all(Radius.circular(50)),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(50)),
-                        borderSide: BorderSide(
-                          color: Colors.redAccent,
-                        )
-                    )
+                  label: Text("Name"),
+                  prefixIcon: Icon(Icons.account_circle),
+                  suffixIcon: Icon(Icons.account_circle),
+                  border: OutlineInputBorder(
+                    gapPadding: 4.0,
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                    borderSide: BorderSide(color: Colors.redAccent),
+                  ),
                 ),
               ),
             ),
@@ -105,9 +103,7 @@ class TextfieldExample extends StatelessWidget {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(50)),
-                    borderSide: BorderSide(
-                      color: Colors.redAccent,
-                    ),
+                    borderSide: BorderSide(color: Colors.redAccent),
                   ),
                 ),
               ),
@@ -131,9 +127,7 @@ class TextfieldExample extends StatelessWidget {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(50)),
-                    borderSide: BorderSide(
-                      color: Colors.redAccent,
-                    ),
+                    borderSide: BorderSide(color: Colors.redAccent),
                   ),
                 ),
               ),
@@ -148,19 +142,17 @@ class TextfieldExample extends StatelessWidget {
                 maxLength: 10,
                 controller: password,
                 decoration: InputDecoration(
-                    label: Text("password"),
-                    prefixIcon: Icon(Icons.lock),
-                    suffixIcon: Icon(Icons.remove_red_eye),
-                    border: OutlineInputBorder(
-                      gapPadding: 4.0,
-                      borderRadius: BorderRadius.all(Radius.circular(50)),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(50)),
-                        borderSide: BorderSide(
-                          color: Colors.redAccent,
-                        )
-                    )
+                  label: Text("password"),
+                  prefixIcon: Icon(Icons.lock),
+                  suffixIcon: Icon(Icons.remove_red_eye),
+                  border: OutlineInputBorder(
+                    gapPadding: 4.0,
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(50)),
+                    borderSide: BorderSide(color: Colors.redAccent),
+                  ),
                 ),
               ),
             ),

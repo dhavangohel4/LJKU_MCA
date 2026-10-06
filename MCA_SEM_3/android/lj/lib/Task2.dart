@@ -10,14 +10,8 @@ class Task2 extends StatelessWidget {
         child: Stack(
           clipBehavior: Clip.none,
           children: [
-
             // Beach Image
-            Image.asset(
-              "assets/images/beach.jpg",
-              height: 250,
-              width: 300,
-              
-            ),
+            Image.asset("assets/images/beach.jpg", height: 250, width: 300),
 
             // White Login Box
             Positioned(
@@ -31,7 +25,6 @@ class Task2 extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-
                     // Username
                     TextField(
                       decoration: const InputDecoration(
@@ -60,9 +53,7 @@ class Task2 extends StatelessWidget {
                 onPressed: () {
                   print("Login Button Clicked");
                 },
-                child: const Icon(
-                  Icons.arrow_forward,
-                ),
+                child: const Icon(Icons.arrow_forward),
               ),
             ),
           ],

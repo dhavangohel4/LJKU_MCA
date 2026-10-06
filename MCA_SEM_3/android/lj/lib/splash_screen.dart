@@ -10,27 +10,22 @@ class splash_screen extends StatefulWidget {
 }
 
 class _splash_screenState extends State<splash_screen> {
-
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    Future.delayed(Duration(seconds: 2),(){
+    Future.delayed(Duration(seconds: 2), () {
       Navigator.push(
-          context,
-          MaterialPageRoute(
-              builder: (context) => Griedexample()));
+        context,
+        MaterialPageRoute(builder: (context) => Griedexample()),
+      );
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset("../assets/images/images.jpg")
-        ],
-      ),
+      body: Column(children: [Image.asset("../assets/images/images.jpg")]),
     );
   }
 }
