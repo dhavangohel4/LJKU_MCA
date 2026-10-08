@@ -17,7 +17,7 @@ class loginController extends GetxController{
           password: password.text
       );
 
-      Get.snackbar("Success", "Login Successfully....!")
+      Get.snackbar("Success", "Login Successfully....!");
     }on FirebaseAuthException catch(e){
       String message;
 
@@ -36,5 +36,4 @@ class loginController extends GetxController{
       isLoading.value = false;
     }
   }
-
 }
