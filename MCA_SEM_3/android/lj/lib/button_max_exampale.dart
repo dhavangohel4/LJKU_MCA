@@ -15,19 +15,13 @@ class ButtonMaxExampale extends StatefulWidget {
 class _ButtonMaxExampaleState extends State<ButtonMaxExampale> {
   int currentI = 0;
 
-  void indexchange(int index){
+  void indexchange(int index) {
     setState(() {
       currentI = index;
     });
   }
 
-  List screens = [
-    Task1(),
-    StackExampal(),
-    whatsappUI(),
-    Task2()
-  ];
-
+  List screens = [Task1(), StackExampal(), whatsappUI(), Task2()];
 
   @override
   Widget build(BuildContext context) {
@@ -44,21 +38,15 @@ class _ButtonMaxExampaleState extends State<ButtonMaxExampale> {
         unselectedItemColor: Colors.grey,
         onTap: indexchange,
         items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.task), label: "Task"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-            label: "Home"
+            icon: Icon(Icons.person),
+            label: "Profile File",
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.task),
-              label: "Task"
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: "Profile File"
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.account_box),
-              label: "Login",
+            icon: Icon(Icons.account_box),
+            label: "Login",
           ),
         ],
       ),

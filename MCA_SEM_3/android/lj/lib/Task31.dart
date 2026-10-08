@@ -21,10 +21,7 @@ class _task1State extends State<Task31> {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        leading: const Icon(
-          Icons.arrow_back_outlined,
-          color: Colors.white,
-        ),
+        leading: const Icon(Icons.arrow_back_outlined, color: Colors.white),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,10 +38,14 @@ class _task1State extends State<Task31> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Order ID",
-                            style: TextStyle(color: Color(0xffd3a511))),
-                        Text("9313788280",
-                            style: TextStyle(color: Color(0xffffffff))),
+                        Text(
+                          "Order ID",
+                          style: TextStyle(color: Color(0xffd3a511)),
+                        ),
+                        Text(
+                          "9313788280",
+                          style: TextStyle(color: Color(0xffffffff)),
+                        ),
                       ],
                     ),
                   ),
@@ -57,10 +58,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Appointment Date",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("Saturday , March 7 , 2023",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Appointment Date",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "Saturday , March 7 , 2023",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -69,10 +74,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Appointment Time",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("11:00 AM",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Appointment Time",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "11:00 AM",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -88,10 +97,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Type of Service",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("Full Body Massage\nBack Massage\nHead Massage",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Type of Service",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "Full Body Massage\nBack Massage\nHead Massage",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -100,10 +113,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Total Amount",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("\$100.00",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Total Amount",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "\$100.00",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -122,10 +139,14 @@ class _task1State extends State<Task31> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Order ID",
-                            style: TextStyle(color: Color(0xffd3a511))),
-                        Text("9313788280",
-                            style: TextStyle(color: Color(0xffffffff))),
+                        Text(
+                          "Order ID",
+                          style: TextStyle(color: Color(0xffd3a511)),
+                        ),
+                        Text(
+                          "9313788280",
+                          style: TextStyle(color: Color(0xffffffff)),
+                        ),
                       ],
                     ),
                   ),
@@ -138,10 +159,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Appointment Date",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("Saturday , March 7 , 2023",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Appointment Date",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "Saturday , March 7 , 2023",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -150,10 +175,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Appointment Time",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("11:00 AM",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Appointment Time",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "11:00 AM",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -168,10 +197,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Type of Service",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("Full Body Massage\nBack Massage\nHead Massage",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Type of Service",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "Full Body Massage\nBack Massage\nHead Massage",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -181,10 +214,14 @@ class _task1State extends State<Task31> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Total Amount",
-                                style: TextStyle(color: Color(0xffd3a511))),
-                            Text("Rs. 100.00",
-                                style: TextStyle(color: Color(0xffffffff))),
+                            Text(
+                              "Total Amount",
+                              style: TextStyle(color: Color(0xffd3a511)),
+                            ),
+                            Text(
+                              "Rs. 100.00",
+                              style: TextStyle(color: Color(0xffffffff)),
+                            ),
                           ],
                         ),
                       ),
@@ -192,7 +229,7 @@ class _task1State extends State<Task31> {
                   ),
                 ],
               ),
-            )
+            ),
           ],
         ),
       ),
@@ -204,13 +241,11 @@ class _task1State extends State<Task31> {
           });
         },
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: const Color(0xffd3a511), // Changed to match text color
+        selectedItemColor: const Color(0xffd3a511),
+        // Changed to match text color
         unselectedItemColor: Colors.grey,
         items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_month),
             label: 'Booking',
@@ -219,10 +254,7 @@ class _task1State extends State<Task31> {
             icon: Icon(Icons.shopping_bag),
             label: 'Order',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],
       ),
     );

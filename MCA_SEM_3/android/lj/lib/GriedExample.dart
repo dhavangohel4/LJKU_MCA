@@ -20,88 +20,50 @@ class Griedexample extends StatelessWidget {
       //
       // ),
       body: GridView(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
-            childAspectRatio: 1.5,
-            mainAxisExtent: 10,
-            crossAxisSpacing: 20,
-
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 3,
+          childAspectRatio: 1.5,
+          mainAxisExtent: 10,
+          crossAxisSpacing: 20,
+        ),
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
           ),
-          children:[
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.blue,
-              ),
-            ),
-
-          ],
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(height: 100, width: 100, color: Colors.blue),
+          ),
+        ],
       ),
     );
   }

@@ -14,13 +14,9 @@ class columnRow extends StatelessWidget {
               // part 1
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 100,
-                  width: 50,
-                  color: Colors.red,
-                ),
+                child: Container(height: 100, width: 50, color: Colors.red),
               ),
-              
+
               // part 2
               Column(
                 children: [
@@ -42,7 +38,7 @@ class columnRow extends StatelessWidget {
                   ),
                 ],
               ),
-              
+
               // part 3
               Column(
                 children: [
@@ -55,7 +51,6 @@ class columnRow extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.orange,
                       ),
-                      
                     ),
                   ),
                   Padding(
@@ -71,15 +66,11 @@ class columnRow extends StatelessWidget {
                   ),
                 ],
               ),
-              
+
               // part 4
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 100,
-                  width: 50,
-                  color: Colors.green,
-                ),
+                child: Container(height: 100, width: 50, color: Colors.green),
               ),
             ],
           ),
@@ -141,19 +132,11 @@ class columnRow extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 50,
-                      width: 25,
-                      color: Colors.red,
-                    ),
+                    child: Container(height: 50, width: 25, color: Colors.red),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 50,
-                      width: 25,
-                      color: Colors.red,
-                    ),
+                    child: Container(height: 50, width: 25, color: Colors.red),
                   ),
                 ],
               ),
@@ -183,19 +166,11 @@ class columnRow extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 50,
-                      width: 25,
-                      color: Colors.red,
-                    ),
+                    child: Container(height: 50, width: 25, color: Colors.red),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      height: 50,
-                      width: 25,
-                      color: Colors.red,
-                    ),
+                    child: Container(height: 50, width: 25, color: Colors.red),
                   ),
                 ],
               ),

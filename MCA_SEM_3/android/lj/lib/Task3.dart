@@ -335,16 +335,10 @@ class _Task3State extends State<Task3> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        leading: const Icon(
-          Icons.arrow_back,
-          color: Colors.white,
-        ),
+        leading: const Icon(Icons.arrow_back, color: Colors.white),
         title: const Text(
           "My Appointments",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18,
-          ),
+          style: TextStyle(color: Colors.white, fontSize: 18),
         ),
         centerTitle: true,
       ),
@@ -358,9 +352,7 @@ class _Task3State extends State<Task3> {
               height: 400,
               child: Card(
                 color: Colors.green,
-                child: Column(
-                  children: [],
-                ),
+                child: Column(children: []),
               ),
             ),
           ],
@@ -381,25 +373,16 @@ class _Task3State extends State<Task3> {
         },
 
         items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: "Home",
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
 
-          BottomNavigationBarItem(
-            icon: Icon(Icons.book),
-            label: "Booking",
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.book), label: "Booking"),
 
           BottomNavigationBarItem(
             icon: Icon(Icons.local_offer),
             label: "Offer",
           ),
 
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: "Profile",
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
     );
